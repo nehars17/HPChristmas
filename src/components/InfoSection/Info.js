@@ -53,17 +53,17 @@ export default InfoSection;
 
 const SortingOverlay = () =>{
     document.getElementById("sorting-overlay").style.display = "block";
-    const getHouse = () =>{
-        var houseArray = ['HUFFLEPUFF', 'RAVENCLAW', 'GRYFFINDOR', 'SLYTHERIN'];
-        var num = Math.floor(Math.random()*4);
-        return houseArray[num];
-    }
+    // const getHouse = () =>{
+    //     var houseArray = ['HUFFLEPUFF', 'RAVENCLAW', 'GRYFFINDOR', 'SLYTHERIN'];
+    //     var num = Math.floor(Math.random()*4);
+    //     return houseArray[num];
+    // }
 
     const newblock = ReactDOM.createRoot(document.getElementById('sorting-overlay'));
     newblock.render(
     <OverlayContainer>
         <InformalHeading>Congratulations!</InformalHeading>
-        <SubHeading>You are a {getHouse()}</SubHeading>
+        <SubHeading>You are a GRYFFINDOR!</SubHeading>
         <GifWrap>
             <GifImg src={Fireworks} alt="Fireworks" />
         </GifWrap>
