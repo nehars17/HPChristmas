@@ -26,7 +26,7 @@ const Navbar = ({toggle}) => {
                 <NavLinks to='the-sorting-hat' smooth={true} duration={500} spy={true} exact='true'>The Sorting Hat</NavLinks>
             </NavItem>
             <NavItem>
-                <NavLinks to='the-deathly-hallows' smooth={true} duration={500} spy={true} exact='true'>The Deathly Hallows</NavLinks>
+                <NavLinks to='christmas-traditions' smooth={true} duration={500} spy={true} exact='true'>Christmas Traditions</NavLinks>
             </NavItem>
             <NavItem>
                 <NavLinks to='the-forbidden-forest' smooth={true} duration={500} spy={true} exact='true'>The Forbidden Forest</NavLinks>

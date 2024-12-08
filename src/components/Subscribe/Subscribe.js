@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { SubContainer, SubWrapper, ImgWrap, Img, SubContent, Heading, Subtitle, Name, BtnWrap } from './SubscribeElements';
-import Owl from '../Images/owl-post.jpg';
+import Owl from '../Images/owl.jpeg';
 import { Buttonclick } from '../ButtonElements';
 import { OverlayContainer, InformalHeading, SubHeading, GifWrap, GifImg } from '../OverlayElements';
 import OwlPost from '../Images/the-daily-prophet.gif';

@@ -35,6 +35,7 @@ margin: 35px auto 0px;
 `;
 
 
+
 export const MapContent = styled.div`
 position: absolute;
 top: 100px;

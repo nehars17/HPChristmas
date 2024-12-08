@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import JacobiteVideo from '../Videos/hogwarts-express.mp4';
-import HarryPotterImage from '../Images/harry-potter.png';
+import HarryPotterImage from '../Images/kk.jpeg';
 import { JacobiteContainer, JacobiteBg, Highlight, HighlightBox, VideoBg, JacobiteContent, JacobiteImg, JacobiteP, JacobiteBtnWrapper, ArrowForward, ArrowRight } from './JacobiteElements';
 import { Buttonscroll } from '../ButtonElements';
 
@@ -21,7 +21,7 @@ const JacobiteSection = () => {
       <HighlightBox />
         <JacobiteImg src={HarryPotterImage} />
         <JacobiteP>
-          A DIVE INTO THE MAGICAL WORLD OF WIZARDS
+         Merry Christmas!
         </JacobiteP>
         <JacobiteBtnWrapper>
           <Buttonscroll to='hogwarts' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true"

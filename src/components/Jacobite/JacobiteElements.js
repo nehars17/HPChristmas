@@ -77,8 +77,8 @@ align-items: center;
 
 
 export const JacobiteImg = styled.img`
-height: 60%;
-width: 60%;
+height: 30%;
+width: 30%;
 margin: 0 auto 2rem;
 z-index: 4;
 
@@ -93,22 +93,32 @@ z-index: 4;
 `;
 
 
-export const JacobiteP = styled.p`
-font-family: 'Playfair Display SC', serif;
-margin-top: 24px;
-color: #0c243c;
-font-size: 4.5rem;
-text-align: center;
-z-index: 4;
-padding: 0 5px;
 
-@media screen and (max-width: 768px){
-    font-size: 3rem;
-}
-@media screen and (max-width: 480px){
-    font-size: 2.5rem;
-}
+
+
+
+
+export const JacobiteP = styled.p`
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    margin-top: 24px;
+    color: #781714; 
+    font-size: 100px;
+    text-align: center;
+    z-index: 4;
+    padding: 0 5px;
+    font-weight: 300; /* Lighter font weight */
+    text-shadow: 2px 2px 5px #8B4513; /* Subtle shadow for depth */
+
+    @media screen and (max-width: 768px){
+        font-size: 3rem;
+    }
+    @media screen and (max-width: 480px){
+        font-size: 2.5rem;
+    }
 `;
+
+
+
 
 
 export const JacobiteBtnWrapper = styled.div`

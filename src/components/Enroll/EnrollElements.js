@@ -55,7 +55,7 @@ height: 100%;
 
 export const Img = styled.img`
 width: 100%;
-height: 400px;
+height: 600px;
 object-fit: cover;
 margin: 20px auto;
 max-width: 710px;

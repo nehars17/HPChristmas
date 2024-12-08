@@ -13,6 +13,7 @@ const MapSection = () => {
         <MapContent id='hide-it'>
             <MapHeading>Marauder's Map</MapHeading>
             <ImgBg2 src={Map2} alt="Marauder's Map" />
+          
             <BtnWrap>
               <Buttonclick onClick={FadeMap}>Mischief Managed</Buttonclick>
             </BtnWrap>

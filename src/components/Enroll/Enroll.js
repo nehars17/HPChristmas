@@ -4,7 +4,7 @@ import { EnrollContainer, EnrollWrapper, LogoWrap, Logo, EnrollContent, EnrollHe
 import {Buttonclick} from '../ButtonElements';
 import { OverlayContainer, InformalHeading, SubHeading, GifWrap, GifImg } from '../OverlayElements';
 import WizLogo from '../Images/wizarding-world.png';
-import HogPic from '../Images/enroll-hogwarts.jpg';
+import HogPic from '../Images/classes.png';
 import ConfusedHarry from '../Images/confused-harry.gif';
 
 const Enroll = () => {
