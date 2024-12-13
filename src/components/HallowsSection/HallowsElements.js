@@ -1,108 +1,84 @@
-import styled from "styled-components";
-
+import styled from 'styled-components';
 
 export const HallowsContainer = styled.div`
-height: 860px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-background: #010606;
-
-@media screen and (max-width: 480px){
-   height: 1500px;
-}
-@media screen and (min-width: 480px) and (max-width: 658px){
-   height: 1500px;
-}
-@media screen and (min-width: 658px) and (max-width: 768px){
-   height: 1450px;
-}
-@media screen and (min-width: 768px) and (max-width: 1000px){
-   height: 1100px;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background: #f5f5f5;
 `;
-
-
-export const HallowsWrapper = styled.div`
-max-width: 800px;
-margin: 0 auto;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-align-items: center;
-grid-gap: 16px;
-padding: 0 50px;
-
-@media screen and (max-width: 1000px){
-    grid-template-columns: 1fr 1fr;
-}
-@media screen and (max-width: 768px){
-    grid-template-columns: 1fr;
-    padding: 0 20px;
-}
-`;
-
-
-export const HallowsCard = styled.div`
-background: #fff;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-border-radius: 10px;
-height: 290px;
-max-height: 340px;
-max-width: 200px;
-padding: 30px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-transition: all 0.2s ease-in-out;
-
-&:hover{
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-}
-`;
-
-
-export const HallowsIcon = styled.img`
-height: 160px;
-width: 160px;
-margin-bottom: 10px;
-`;
-
 
 export const HallowsH1 = styled.h1`
-font-family: 'Harry Potter', sans-serif;
-font-size: 5rem;
-letter-spacing: 9px;
-color: #fff;
-margin-top: -10px;
-margin-bottom: 64px;
-
-@media screen and (max-width: 480px){
-    font-size: 2.2rem;
-    margin-bottom: 30px;
-}
-@media screen and (min-width: 480px) and (max-width: 768px){
-    font-size: 3.5rem;
-    margin-bottom: 30px;
-}
-@media screen and (min-width: 768px) and (max-width: 1000px){
-    font-size: 4rem;
+    font-size: 2.5rem;
+    color: #333;
     margin-bottom: 50px;
-}
 `;
 
+export const HallowsWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+`;
+
+export const HallowsCard = styled.div`
+    width: 300px;
+    height: 400px;
+    perspective: 1000px; /* Enables the 3D effect */
+    cursor: pointer;
+    position: relative; /* Ensures proper stacking of front and back */
+`;
+
+export const CardFront = styled.div`
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hides the back when the front is shown */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.6s ease-in-out;
+    transform: rotateY(0); /* Default state */
+    z-index: 2; /* Ensure it's above the back by default */
+`;
+
+export const CardBack = styled(CardFront)`
+    background: #333;
+    color: #fff;
+    transform: rotateY(180deg); /* Starts flipped */
+    z-index: 1; /* Ensure it's below the front by default */
+`;
+
+export const HallowsCardWrapper = styled.div`
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* Maintain 3D effect */
+    transition: transform 0.6s ease-in-out;
+
+    ${HallowsCard}:hover & {
+        transform: rotateY(180deg); /* Flip the card on hover */
+    }
+`;
+
+export const HallowsIcon = styled.img`
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+`;
 
 export const HallowsH2 = styled.h2`
-font-family: 'Merriweather', serif;
-font-size: 1rem;
-margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #444;
 `;
 
-
 export const HallowsP = styled.p`
-font-size: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5;
 `;

@@ -2,32 +2,63 @@ import React from 'react';
 import Icon1 from '../Images/Butterbeer.jpg';
 import Icon2 from '../Images/chess.jpeg';
 import Icon3 from '../Images/harry-potter-christmas-cr-everett.webp';
-import { HallowsContainer, HallowsH1, HallowsWrapper, HallowsCard, HallowsIcon, HallowsH2, HallowsP } from './HallowsElements';
+import { 
+    HallowsContainer, 
+    HallowsH1, 
+    HallowsWrapper, 
+    HallowsCard, 
+    HallowsCardWrapper, 
+    CardFront, 
+    CardBack, 
+    HallowsIcon, 
+    HallowsH2, 
+    HallowsP 
+} from './HallowsElements';
 
 const Hallows = () => {
-return (
-    <HallowsContainer id="christmas-traditions">
-            <h1 class="christmasHeader">Christmas Traditions</h1>
+    return (
+        <HallowsContainer id="christmas-traditions">
+            <HallowsH1>Christmas Traditions</HallowsH1>
             
             <HallowsWrapper>
-                    <HallowsCard>
-                            <HallowsIcon src={Icon1} />
+                <HallowsCard>
+                    <HallowsCardWrapper>
+                        <CardFront>
+                            <HallowsIcon src={Icon1} alt="Butterbeer" />
                             <HallowsH2>Butterbeer</HallowsH2>
-                            <HallowsP> Hogsmeade favorite</HallowsP>
-                    </HallowsCard>
-                    <HallowsCard>
-                            <HallowsIcon src={Icon2} />
-                            <HallowsH2>Wizard's Chess </HallowsH2>
-                            <HallowsP>A lively chess game where enchanted pieces battle on command</HallowsP>
-                    </HallowsCard>
-                    <HallowsCard>
-                            <HallowsIcon src={Icon3} />
+                        </CardFront>
+                        <CardBack>
+                            <HallowsP>A sweet and creamy Hogsmeade favorite.</HallowsP>
+                        </CardBack>
+                    </HallowsCardWrapper>
+                </HallowsCard>
+                <HallowsCard>
+                    <HallowsCardWrapper>
+                        <CardFront>
+                            <HallowsIcon src={Icon2} alt="Wizard's Chess" />
+                            <HallowsH2>Wizard's Chess</HallowsH2>
+                        </CardFront>
+                        <CardBack>
+                            <HallowsP>A lively chess game where enchanted pieces battle on command.</HallowsP>
+                        </CardBack>
+                    </HallowsCardWrapper>
+                </HallowsCard>
+                <HallowsCard>
+                    <HallowsCardWrapper>
+                        <CardFront>
+                            <HallowsIcon src={Icon3} alt="Feast" />
                             <HallowsH2>Feast!!!</HallowsH2>
-                            <HallowsP>A grand spread of roast meats, pies, and magical desserts like treacle tart and pumpkin pasties, all under floating candles and a starlit ceiling.</HallowsP>
-                    </HallowsCard>
+                        </CardFront>
+                        <CardBack>
+                            <HallowsP>
+                                A grand spread of roast meats, pies, and magical desserts like treacle tart and pumpkin pasties.
+                            </HallowsP>
+                        </CardBack>
+                    </HallowsCardWrapper>
+                </HallowsCard>
             </HallowsWrapper>
-    </HallowsContainer>
-);
+        </HallowsContainer>
+    );
 };
 
 export default Hallows;
