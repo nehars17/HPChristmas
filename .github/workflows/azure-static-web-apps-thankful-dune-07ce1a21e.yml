@@ -19,6 +19,17 @@ jobs:
         with:
           submodules: true
           lfs: false
+
+      # Install Node.js (ensure the environment supports npx commands)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # Use the Node.js version compatible with your app
+
+      # Update Browserslist database
+      - name: Update Browserslist database
+        run: npx browserslist@latest --update-db
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
