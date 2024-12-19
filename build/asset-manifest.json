@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/harry-potter-website/static/css/main.f389139c.css",
+    "main.js": "/harry-potter-website/static/js/main.57583a41.js",
+    "static/media/hogwarts-express.mp4": "/harry-potter-website/static/media/hogwarts-express.b080e6d5604b3a67a13e.mp4",
+    "static/media/the-daily-prophet.gif": "/harry-potter-website/static/media/the-daily-prophet.64b9c3cce31c2578be1a.gif",
+    "static/media/avada-kedavra.gif": "/harry-potter-website/static/media/avada-kedavra.5991401d2a527b669974.gif",
+    "static/media/patronus.gif": "/harry-potter-website/static/media/patronus.2a0110ab920308f72d1f.gif",
+    "static/media/classes.png": "/harry-potter-website/static/media/classes.5926511e4ed62f7a7697.png",
+    "static/media/houses-logo.png": "/harry-potter-website/static/media/houses-logo.eb556b6b03ab976d8431.png",
+    "static/media/forbidden-forest.jpg": "/harry-potter-website/static/media/forbidden-forest.b6d57cadb958fb02f20d.jpg",
+    "static/media/fireworks.gif": "/harry-potter-website/static/media/fireworks.6c95d3ecaf2c58236c3c.gif",
+    "static/media/confused-harry.gif": "/harry-potter-website/static/media/confused-harry.38bc749b11c95c1fa9f9.gif",
+    "static/media/marauders-map-img.gif": "/harry-potter-website/static/media/marauders-map-img.446abc3a794d8ae08222.gif",
+    "static/media/harry-potter-christmas-cr-everett.webp": "/harry-potter-website/static/media/harry-potter-christmas-cr-everett.e76396f27ec28a28f4d8.webp",
+    "static/media/hogwarts-logo.png": "/harry-potter-website/static/media/hogwarts-logo.5a5503b79db751698a91.png",
+    "static/media/hogwarts.jpeg": "/harry-potter-website/static/media/hogwarts.1f4d1230f11d1c664e3b.jpeg",
+    "static/media/wizarding-world.png": "/harry-potter-website/static/media/wizarding-world.d7e18bcf85368db99293.png",
+    "static/media/owl.jpeg": "/harry-potter-website/static/media/owl.fb40fc509cfd5090baab.jpeg",
+    "static/media/kk.jpeg": "/harry-potter-website/static/media/kk.3662bdd3439e03873bb6.jpeg",
+    "static/media/marauders-map-bg.jpg": "/harry-potter-website/static/media/marauders-map-bg.2bf24aceacb4283c7c6b.jpg",
+    "static/media/death-eaters.jpg": "/harry-potter-website/static/media/death-eaters.bab3a15b3961f425ce76.jpg",
+    "static/media/chess.jpeg": "/harry-potter-website/static/media/chess.99a099beb299ce445585.jpeg",
+    "static/media/Butterbeer.jpg": "/harry-potter-website/static/media/Butterbeer.4a2443667e5a8c58e0b8.jpg",
+    "static/media/sorting-hat.jpg": "/harry-potter-website/static/media/sorting-hat.3f1347061053f6974d2b.jpg",
+    "static/media/death-eaters-logo.png": "/harry-potter-website/static/media/death-eaters-logo.928c573a0acb70218583.png",
+    "static/media/dogPatronus.avif": "/harry-potter-website/static/media/dogPatronus.d6d961734525909619ba.avif",
+    "static/media/HarryPotterFont.TTF": "/harry-potter-website/static/media/HarryPotterFont.61090fcb66b8942c5664.TTF",
+    "index.html": "/harry-potter-website/index.html",
+    "main.f389139c.css.map": "/harry-potter-website/static/css/main.f389139c.css.map",
+    "main.57583a41.js.map": "/harry-potter-website/static/js/main.57583a41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f389139c.css",
+    "static/js/main.57583a41.js"
+  ]
+}
